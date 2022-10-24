@@ -1,0 +1,6 @@
+{
+  "extends": [
+    "./src/base.js"
+  ]
+}
+

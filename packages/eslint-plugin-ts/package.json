@@ -1,0 +1,26 @@
+{
+  "name": "@shilong/eslint-config",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/base.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rimraf dist && tsc --project ./tsconfig.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "peerDependencies": {
+    "eslint": ">=8"
+  },
+  "dependencies": {
+    "@antfu/eslint-config-basic": "^0.27.0",
+    "eslint": "^8.26.0"
+  },
+  "devDependencies": {
+    "@types/eslint": "^8.4.6",
+    "eslint-define-config": "^1.7.0",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.8.4"
+  }
+}

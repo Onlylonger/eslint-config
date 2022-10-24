@@ -1,0 +1,23 @@
+{
+  "name": "@shilong/eslint-config",
+  "version": "1.0.0",
+  "description": "",
+  "author": "",
+  "license": "MIT",
+  "keywords": [],
+  "main": "./src/base.js",
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "peerDependencies": {
+    "eslint": ">=8"
+  },
+  "dependencies": {
+    "@antfu/eslint-config-basic": "^0.27.0",
+    "eslint": "^8.26.0"
+  },
+  "devDependencies": {
+    "eslint-define-config": "^1.7.0"
+  }
+}

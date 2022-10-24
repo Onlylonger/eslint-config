@@ -11,13 +11,15 @@
     "lint:fix": "eslint . --fix"
   },
   "peerDependencies": {
-    "eslint": ">=8"
+    "eslint": "^8.0.1"
   },
   "dependencies": {
-    "@antfu/eslint-config-basic": "^0.27.0",
-    "eslint": "^8.26.0"
-  },
-  "devDependencies": {
-    "eslint-define-config": "^1.7.0"
+    "eslint": "^8.26.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-define-config": "^1.7.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.3.0",
+    "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-unicorn": "^44.0.2"
   }
 }

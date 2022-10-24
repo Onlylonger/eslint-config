@@ -1,5 +1,5 @@
 {
-    "extends": [
-        "@shilong"
-    ]
+  "extends": [
+    "@shilong"
+  ]
 }
